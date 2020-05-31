@@ -1,0 +1,43 @@
+spring boot starter parent - version compatability
+
+@SpringBootApplication
+@SpringBootConfiguration - tells that this class can define Beans{@Bean}
+@EnableAutoConfiguration - automatically create configuration using all the dependencies necessary.
+@ComponentScan - tells to look scan and create Beans for us.
+
+stereotype.Repository
+stereotype.service
+stereotype.component
+
+@component - only for impl classes.
+
+spring-boot-starter-data-jpa: MyReposiory extends JPARepository
+
+@RestController - @Controller + @ResponseBody{json}
+
+run as mavenInstall - myapp/Target/myapp.jar
+
+context-path
+
+@RequestBody
+
+@PathVarible('id')
+
+postman - post - body - raw - json
+
+RestTemplate,WebClient. {getForObject, postForObject, put, delete}
+
+@Value("$")
+
+application-dev.properties
+
+
+
+
+
+
+
+
+  
+
+ 
